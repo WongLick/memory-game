@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  height: 10dvh;
+}
+
+.container .logo,
+.container .scores {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .description {
+  flex: 7 1 auto;
+  margin-left: 4em;
+}

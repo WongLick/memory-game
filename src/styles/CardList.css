@@ -1,0 +1,11 @@
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: stretch;
+  row-gap: 40px;
+  column-gap: 40px;
+  padding: 20px 200px;
+  height: 85dvh;
+}
+
+

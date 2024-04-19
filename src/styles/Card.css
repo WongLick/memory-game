@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.card button{
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+}
