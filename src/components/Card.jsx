@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Card.css";
 
-function Card({ name, image }) {
+function Card({ name, image, func }) {
   return (
     <div className="card">
-      <button>
+      <button onClick={func}>
         <img src={image} alt="Pokemon" />
         <div>{name}</div>
       </button>
