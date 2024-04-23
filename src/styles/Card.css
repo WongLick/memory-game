@@ -6,8 +6,17 @@
   width: auto;
 }
 
-.card button{
-    height: 100%;
-    width: 100%;
-    font-size: 24px;
+.card .button {
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+}
+
+.card .button:hover {
+  box-shadow: rgba(0, 255, 255, 0.8) 0 8px 15px;
+  transform: translateY(-5px);
 }

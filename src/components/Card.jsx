@@ -4,7 +4,7 @@ import "../styles/Card.css";
 function Card({ name, image, onclick }) {
   return (
     <div className="card">
-      <button onClick={onclick}>
+      <button onClick={onclick} className="button">
         <img src={image} alt="Pokemon" />
         <div>{name}</div>
       </button>
